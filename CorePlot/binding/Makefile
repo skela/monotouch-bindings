@@ -3,7 +3,7 @@ BUILD_FLAGS=-unsafe -target:library -nowarn:436 -nowarn:219
 BTOUCH=/Developer/MonoTouch/usr/bin/btouch
 SMCS=/Developer/MonoTouch/usr/bin/smcs
 MONOMAC=/cvs/monomac
-VERSION=0.9
+VERSION=1.0
 
 PROJECT_ROOT=CorePlot_$(VERSION)/Source/framework
 PROJECT=$(PROJECT_ROOT)/CorePlot-CocoaTouch.xcodeproj
@@ -21,7 +21,6 @@ CorePlot-$(VERSION).zip:
 CorePlot_$(VERSION)/License.txt: CorePlot-$(VERSION).zip
 	unzip -o $^ -x "__MACOSX/*" "*/.DS_Store"
 	touch CorePlot_$(VERSION)/License.txt
-	patch -p0 -i thumb.patch
 
 libCorePlot-CocoaTouch-i386.a: CorePlot_$(VERSION)/License.txt
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphonesimulator -configuration Release clean build
