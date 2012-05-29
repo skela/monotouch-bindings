@@ -485,31 +485,7 @@ namespace MonoMac.CorePlot {
 		[Export ("initWithCGColorSpace:")]
 		IntPtr Constructor (CGColorSpace colorSpace);
 	}
-		
-	[BaseType (typeof (NSObject))]
-	interface CPTConstrainedPosition {
-		[Export ("position")]
-		float Position { get; set;  }
 
-		[Export ("lowerBound")]
-		float LowerBound { get; set;  }
-
-		[Export ("upperBound")]
-		float UpperBound { get; set;  }
-
-		//[Export ("constraints")]
-		//CPTConstraints Constraints { get; set;  }
-
-		[Export ("initWithPosition:lowerBound:upperBound:")]
-		IntPtr Constructor (float newPosition, float newLowerBound, float newUpperBound);
-
-		[Export ("initWithAlignment:lowerBound:upperBound:")]
-		IntPtr Constructor (CPTAlignment newAlignment, float newLowerBound, float newUpperBound);
-
-		[Export ("adjustPositionForOldLowerBound:oldUpperBound:")]
-		void AdjustPosition (float oldLowerBound, float oldUpperBound);
-	}
-	
 	[BaseType (typeof (NSObject))]
 	interface CPTFill {
 		[Static]
@@ -1835,11 +1811,30 @@ namespace MonoMac.CorePlot {
 	interface CPTXYAxis {
 		[Export ("orthogonalCoordinateDecimal")]
 		NSDecimal OrthogonalCoordinateDecimal { get; set;  }
-//[Export ("constraints")]
-//CPTConstraints Constraints { get; set;  }
+
+		[Export ("axisConstraints")]
+		CPTConstraints AxisConstraints { get; set;  }
 
 		[Export ("isFloatingAxis")]
 		bool IsFloatingAxis { get; set;  }
+	}
+	
+	[BaseType (typeof (NSObject))]
+	interface CPTConstraints {
+		[Export ("constraintWithLowerOffset:newOffset")] [Static]
+		CPTConstraints CreateWithLowerOffset (float newOffset);
+		
+		[Export ("constraintWithUpperOffset:newOffset")] [Static]
+		CPTConstraints CreateWithUpperOffset (float newOffset);
+		
+		[Export ("constraintWithRelativeOffset:newOffset")] [Static]
+		CPTConstraints CreateWithRelativeOffset (float newOffset);
+		
+		[Export ("isEqualToConstraint:otherConstraint")]
+		bool Equals (CPTConstraints otherConstraint);
+		
+		[Export ("positionForLowerBound:lowerBound:upperBound:")]
+		float GetPosition (float lowerBound, float upperBound);
 	}
 
 	[BaseType (typeof (CPTAxisSet))]

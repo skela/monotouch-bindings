@@ -38,12 +38,6 @@ namespace MonoMac.CorePlot {
 		None, Fixed
 	}
 
-	[StructLayout (LayoutKind.Sequential)]
-	public struct CPTConstraints {
-		public CPTConstraint Lower;
-		public CPTConstraint Upper;
-	}
-
 	public enum CPTRectAnchor {
 		BottomLeft, Bottom, BottomRight, Left, Right, TopLeft, Top, TopRight, Center
 	}
