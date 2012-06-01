@@ -40,7 +40,7 @@
       <Type Name="CPTColorSpace" Kind="Class" />
       <Type Name="CPTConstrainedPosition" Kind="Class" />
       <Type Name="CPTConstraint" Kind="Enumeration" />
-      <Type Name="CPTConstraints" Kind="Structure" />
+      <Type Name="CPTConstraints" Kind="Class" />
       <Type Name="CPTCoordinate" Kind="Enumeration" />
       <Type Name="CPTDarkGradientTheme" Kind="Class" />
       <Type Name="CPTDataTypeFormat" Kind="Enumeration" />

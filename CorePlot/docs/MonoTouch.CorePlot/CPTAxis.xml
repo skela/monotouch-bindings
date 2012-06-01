@@ -1270,6 +1270,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="SetAxisConstraints">
+      <MemberSignature Language="C#" Value="public virtual void SetAxisConstraints (MonoTouch.CorePlot.CPTConstraints constraints);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAxisConstraints(class MonoTouch.CorePlot.CPTConstraints constraints) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("setAxisConstraints:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="constraints" Type="MonoTouch.CorePlot.CPTConstraints" />
+      </Parameters>
+      <Docs>
+        <param name="constraints">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SetNeedsRelabel">
       <MemberSignature Language="C#" Value="public virtual void SetNeedsRelabel ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetNeedsRelabel() cil managed" />

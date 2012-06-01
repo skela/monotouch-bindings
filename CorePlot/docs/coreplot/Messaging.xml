@@ -351,6 +351,58 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="float_objc_msgSend_float_float">
+      <MemberSignature Language="C#" Value="public static float float_objc_msgSend_float_float (IntPtr receiver, IntPtr selector, float arg1, float arg2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig pinvokeimpl (&quot;/usr/lib/libobjc.dylib&quot; as &quot;objc_msgSend&quot; winapi)float32 float_objc_msgSend_float_float(native int receiver, native int selector, float32 arg1, float32 arg2) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="receiver" Type="System.IntPtr" />
+        <Parameter Name="selector" Type="System.IntPtr" />
+        <Parameter Name="arg1" Type="System.Single" />
+        <Parameter Name="arg2" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="receiver">To be added.</param>
+        <param name="selector">To be added.</param>
+        <param name="arg1">To be added.</param>
+        <param name="arg2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="float_objc_msgSendSuper_float_float">
+      <MemberSignature Language="C#" Value="public static float float_objc_msgSendSuper_float_float (IntPtr receiver, IntPtr selector, float arg1, float arg2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig pinvokeimpl (&quot;/usr/lib/libobjc.dylib&quot; as &quot;objc_msgSendSuper&quot; winapi)float32 float_objc_msgSendSuper_float_float(native int receiver, native int selector, float32 arg1, float32 arg2) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="receiver" Type="System.IntPtr" />
+        <Parameter Name="selector" Type="System.IntPtr" />
+        <Parameter Name="arg1" Type="System.Single" />
+        <Parameter Name="arg2" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="receiver">To be added.</param>
+        <param name="selector">To be added.</param>
+        <param name="arg1">To be added.</param>
+        <param name="arg2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="int_objc_msgSend_Double">
       <MemberSignature Language="C#" Value="public static int int_objc_msgSend_Double (IntPtr receiver, IntPtr selector, double arg1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig pinvokeimpl (&quot;/usr/lib/libobjc.dylib&quot; as &quot;objc_msgSend&quot; winapi)int32 int_objc_msgSend_Double(native int receiver, native int selector, float64 arg1) cil managed" />

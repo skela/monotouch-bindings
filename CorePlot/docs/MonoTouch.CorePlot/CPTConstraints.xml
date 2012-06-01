@@ -1,46 +1,219 @@
 <Type Name="CPTConstraints" FullName="MonoTouch.CorePlot.CPTConstraints">
-  <TypeSignature Language="C#" Value="public struct CPTConstraints" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CPTConstraints extends System.ValueType" />
+  <TypeSignature Language="C#" Value="public class CPTConstraints : MonoTouch.Foundation.NSObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CPTConstraints extends MonoTouch.Foundation.NSObject" />
   <AssemblyInfo>
     <AssemblyName>CorePlotiOS</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.ValueType</BaseTypeName>
+    <BaseTypeName>MonoTouch.Foundation.NSObject</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>MonoTouch.Foundation.Register("CPTConstraints", true)</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="Lower">
-      <MemberSignature Language="C#" Value="public MonoTouch.CorePlot.CPTConstraint Lower;" />
-      <MemberSignature Language="ILAsm" Value=".field public valuetype MonoTouch.CorePlot.CPTConstraint Lower" />
-      <MemberType>Field</MemberType>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CPTConstraints ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>MonoTouch.CorePlot.CPTConstraint</ReturnType>
-      </ReturnValue>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("init")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Upper">
-      <MemberSignature Language="C#" Value="public MonoTouch.CorePlot.CPTConstraint Upper;" />
-      <MemberSignature Language="ILAsm" Value=".field public valuetype MonoTouch.CorePlot.CPTConstraint Upper" />
-      <MemberType>Field</MemberType>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CPTConstraints (MonoTouch.Foundation.NSCoder coder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class MonoTouch.Foundation.NSCoder coder) cil managed" />
+      <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>MonoTouch.CorePlot.CPTConstraint</ReturnType>
-      </ReturnValue>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("initWithCoder:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="coder" Type="MonoTouch.Foundation.NSCoder" />
+      </Parameters>
       <Docs>
+        <param name="coder">To be added.</param>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CPTConstraints (MonoTouch.Foundation.NSObjectFlag t);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class MonoTouch.Foundation.NSObjectFlag t) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="t" Type="MonoTouch.Foundation.NSObjectFlag" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CPTConstraints (IntPtr handle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(native int handle) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="handle" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="handle">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstraintWithLowerOffset">
+      <MemberSignature Language="C#" Value="public static MonoTouch.CorePlot.CPTConstraints ConstraintWithLowerOffset (float newOffset);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.CorePlot.CPTConstraints ConstraintWithLowerOffset(float32 newOffset) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("constraintWithLowerOffset:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>MonoTouch.CorePlot.CPTConstraints</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newOffset" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="newOffset">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstraintWithRelativeOffset">
+      <MemberSignature Language="C#" Value="public static MonoTouch.CorePlot.CPTConstraints ConstraintWithRelativeOffset (float newOffset);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.CorePlot.CPTConstraints ConstraintWithRelativeOffset(float32 newOffset) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("constraintWithRelativeOffset:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>MonoTouch.CorePlot.CPTConstraints</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newOffset" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="newOffset">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstraintWithUpperOffset">
+      <MemberSignature Language="C#" Value="public static MonoTouch.CorePlot.CPTConstraints ConstraintWithUpperOffset (float newOffset);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.CorePlot.CPTConstraints ConstraintWithUpperOffset(float32 newOffset) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("constraintWithUpperOffset:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>MonoTouch.CorePlot.CPTConstraints</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newOffset" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="newOffset">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEqualToConstraint">
+      <MemberSignature Language="C#" Value="public virtual bool IsEqualToConstraint (MonoTouch.CorePlot.CPTConstraints otherConstraint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsEqualToConstraint(class MonoTouch.CorePlot.CPTConstraints otherConstraint) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("isEqualToConstraint:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="otherConstraint" Type="MonoTouch.CorePlot.CPTConstraints" />
+      </Parameters>
+      <Docs>
+        <param name="otherConstraint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PositionForBounds">
+      <MemberSignature Language="C#" Value="public virtual float PositionForBounds (float lowerBound, float upperBound);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PositionForBounds(float32 lowerBound, float32 upperBound) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>MonoTouch.Foundation.Export("positionForLowerBound:upperBound:")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lowerBound" Type="System.Single" />
+        <Parameter Name="upperBound" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="lowerBound">To be added.</param>
+        <param name="upperBound">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

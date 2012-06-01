@@ -254,6 +254,9 @@ namespace MonoMac.CorePlot {
 
 		[Export ("drawBackgroundLimitsInContext:")]
 		void DrawBackgroundLimits (CGContext context);
+		
+		[Export ("setAxisConstraints:")]
+		void SetAxisConstraints(CPTConstraints constraints);
 	}
 
 	[BaseType (typeof (NSObject))]
@@ -508,6 +511,50 @@ namespace MonoMac.CorePlot {
 
 		[Export ("adjustPositionForOldLowerBound:oldUpperBound:")]
 		void AdjustPosition (float oldLowerBound, float oldUpperBound);
+	}
+	
+	
+	[BaseType (typeof (NSObject))]
+	interface CPTConstraints 
+	{
+		//+(CPTConstraints *)constraintWithLowerOffset:(CGFloat)newOffset
+		[Static]
+		[Export ("constraintWithLowerOffset:")]
+		CPTConstraints ConstraintWithLowerOffset(float newOffset);
+		
+		//+(CPTConstraints *)constraintWithUpperOffset:(CGFloat)newOffset
+		[Static]
+		[Export ("constraintWithUpperOffset:")]
+		CPTConstraints ConstraintWithUpperOffset(float newOffset);
+		
+		//+(CPTConstraints *)constraintWithRelativeOffset:(CGFloat)newOffset
+		[Static]
+		[Export ("constraintWithRelativeOffset:")]
+		CPTConstraints ConstraintWithRelativeOffset(float newOffset);
+	
+		//-(id)initWithLowerOffset:(CGFloat)newOffset
+		//[Export ("initWithLowerOffset:")]
+		//IntPtr Constructor (float lowerOffset,bool random);
+		
+		///-(id)initWithUpperOffset:(CGFloat)newOffset
+		//[Export ("initWithUpperOffset:")]
+		//IntPtr Constructor (float upperOffset,bool random2,bool random1);
+		
+		//-(id)initWithRelativeOffset:(CGFloat)newOffset
+		//[Export ("initWithRelativeOffset:")]
+		//IntPtr Constructor (float relativeOffset,bool random2,bool random1,bool random3);		
+		
+		//-(id)initWithCoder:(NSCoder *)coder
+		[Export ("initWithCoder:")]
+		IntPtr Constructor (NSCoder coder);		
+		
+		//-(BOOL)isEqualToConstraint:(CPTConstraints *)otherConstraint
+		[Export ("isEqualToConstraint:")]
+		bool IsEqualToConstraint(CPTConstraints otherConstraint);
+		
+		//-(CGFloat)positionForLowerBound:(CGFloat)lowerBound upperBound:(CGFloat)upperBound;
+		[Export ("positionForLowerBound:upperBound:")]
+		float PositionForBounds(float lowerBound,float upperBound);
 	}
 	
 	[BaseType (typeof (NSObject))]

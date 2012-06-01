@@ -1,9 +1,9 @@
 BUILD_FLAGS=-unsafe -target:library -nowarn:436 -nowarn:219
 BTOUCH=/Developer/MonoTouch/usr/bin/btouch
 SMCS=/Developer/MonoTouch/usr/bin/smcs
-XBUILD=/Developer/usr/bin/xcodebuild
+XBUILD=/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
 MONOMAC=/cvs/monomac
-VERSION=0.9
+VERSION=1.0
 
 PROJECT_ROOT=CorePlot_$(VERSION)/Source/framework
 PROJECT=$(PROJECT_ROOT)/CorePlot-CocoaTouch.xcodeproj
