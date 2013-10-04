@@ -57,6 +57,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADAdNetworkExtras
 	{
 		
@@ -100,6 +101,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADBannerViewDelegate
 	{
 		[Export ("adViewDidReceiveAd:"), EventArgs("GADBannerViewE")]
@@ -153,6 +155,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADInterstitialDelegate 
 	{
 		[Export ("interstitialDidReceiveAd:"), EventArgs("GADInterstitialE")]
@@ -214,6 +217,9 @@ namespace GoogleAdMobAds
 		
 		[Export ("setLocationWithDescription:")]
 		void SetLocationWithDescription (string locationDescription);
+
+		[Export ("tagForChildDirectedTreatment:")]
+		void TagForChildDirectedTreatment (bool childDirectedTreatment);
 		
 		[Export ("keywords", ArgumentSemantic.Retain), NullAllowed]
 		string [] keywords { get; set; }
@@ -280,6 +286,9 @@ namespace GoogleAdMobAds
 		
 		[Export ("customChannels", ArgumentSemantic.Copy)]
 		string CustomChannels { get; set; }
+
+		[Export ("callButtonColor")]
+		GADSearchCallButtonColor CallButtonColor { get; set; }
 		
 		[Export ("request")]
 		GADRequest Request { get; }
@@ -380,6 +389,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADAdSizeDelegate 
 	{
 		[Export ("adView:willChangeAdSizeTo:"), EventArgs("GADAdSizeDelegateSize")]
@@ -388,6 +398,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADAppEventDelegate 
 	{
 		[Export ("adView:didReceiveAppEvent:withInfo:"), EventArgs("GADAppEventDelegateNameInfo")]
@@ -399,6 +410,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADSwipeableBannerViewDelegate 
 	{
 		[Export ("adViewDidActivateAd:"), EventArgs("GADSwipeableBannerViewDelegateInfo")]
@@ -429,6 +441,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADCustomEventBannerDelegate 
 	{
 		[Export ("customEventBanner:didReceiveAd:"), EventArgs("GADCustomEventBannerView")]
@@ -492,6 +505,7 @@ namespace GoogleAdMobAds
 	
 	[BaseType (typeof (NSObject))]
 	[Model]
+	[Protocol]
 	interface GADCustomEventInterstitialDelegate 
 	{
 		[Export ("customEventInterstitial:didReceiveAd:"), EventArgs("GADCustomEventInterstitialAd")]

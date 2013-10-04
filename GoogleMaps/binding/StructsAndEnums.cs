@@ -21,6 +21,12 @@ namespace Google.Maps
 		None	
 	} 
 
+	public enum MarkerAnimation
+	{
+		None = 0,
+		Pop
+	}
+
 	[StructLayout (LayoutKind.Sequential)]
 	public struct VisibleRegion {
 
@@ -39,6 +45,18 @@ namespace Google.Maps
 			FarLeft = new CLLocationCoordinate2D (farLeftLatitude, farLeftLongitude);
 			FarRight = new CLLocationCoordinate2D (farRightLatitude, farRightLongitude);
 		}	
+	}
+
+	[StructLayout (LayoutKind.Sequential)]
+	public struct Orientation {
+		public float Heading;
+		public float Pitch;
+
+		public Orientation (float heading, float pitch)
+		{
+			Heading = heading;
+			Pitch = pitch;
+		}
 	}
 }
 
