@@ -1496,7 +1496,7 @@ namespace MonoTouch.FacebookConnect
 		
 		[Static]
 		[Export ("activeSession")]
-		FBSession ActiveSession { get; set; }
+		FBSession ActiveSession { get; [NullAllowed]set; }
 		
 		[Static] [Obsolete ("Deprecated in favor of FBSettings.DefaultAppID")]
 		[Export ("defaultAppID")]
