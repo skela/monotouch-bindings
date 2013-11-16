@@ -1,0 +1,131 @@
+<Type Name="FBRequestDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBRequestDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBRequestDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBRequestDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailedWithError">
+      <MemberSignature Language="C#" Value="public static void FailedWithError (this MonoTouch.FacebookConnect.IFBRequestDelegate This, MonoTouch.FacebookConnect.FBRequest request, MonoTouch.Foundation.NSError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FailedWithError(class MonoTouch.FacebookConnect.IFBRequestDelegate This, class MonoTouch.FacebookConnect.FBRequest request, class MonoTouch.Foundation.NSError error) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBRequestDelegate" RefType="this" />
+        <Parameter Name="request" Type="MonoTouch.FacebookConnect.FBRequest" />
+        <Parameter Name="error" Type="MonoTouch.Foundation.NSError" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="error">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadedRawResponse">
+      <MemberSignature Language="C#" Value="public static void LoadedRawResponse (this MonoTouch.FacebookConnect.IFBRequestDelegate This, MonoTouch.FacebookConnect.FBRequest request, MonoTouch.Foundation.NSData data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LoadedRawResponse(class MonoTouch.FacebookConnect.IFBRequestDelegate This, class MonoTouch.FacebookConnect.FBRequest request, class MonoTouch.Foundation.NSData data) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBRequestDelegate" RefType="this" />
+        <Parameter Name="request" Type="MonoTouch.FacebookConnect.FBRequest" />
+        <Parameter Name="data" Type="MonoTouch.Foundation.NSData" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedResponse">
+      <MemberSignature Language="C#" Value="public static void ReceivedResponse (this MonoTouch.FacebookConnect.IFBRequestDelegate This, MonoTouch.FacebookConnect.FBRequest request, MonoTouch.Foundation.NSUrlResponse response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReceivedResponse(class MonoTouch.FacebookConnect.IFBRequestDelegate This, class MonoTouch.FacebookConnect.FBRequest request, class MonoTouch.Foundation.NSUrlResponse response) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBRequestDelegate" RefType="this" />
+        <Parameter Name="request" Type="MonoTouch.FacebookConnect.FBRequest" />
+        <Parameter Name="response" Type="MonoTouch.Foundation.NSUrlResponse" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestLoaded">
+      <MemberSignature Language="C#" Value="public static void RequestLoaded (this MonoTouch.FacebookConnect.IFBRequestDelegate This, MonoTouch.FacebookConnect.FBRequest request, MonoTouch.Foundation.NSObject result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RequestLoaded(class MonoTouch.FacebookConnect.IFBRequestDelegate This, class MonoTouch.FacebookConnect.FBRequest request, class MonoTouch.Foundation.NSObject result) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBRequestDelegate" RefType="this" />
+        <Parameter Name="request" Type="MonoTouch.FacebookConnect.FBRequest" />
+        <Parameter Name="result" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestLoading">
+      <MemberSignature Language="C#" Value="public static void RequestLoading (this MonoTouch.FacebookConnect.IFBRequestDelegate This, MonoTouch.FacebookConnect.FBRequest request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RequestLoading(class MonoTouch.FacebookConnect.IFBRequestDelegate This, class MonoTouch.FacebookConnect.FBRequest request) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBRequestDelegate" RefType="this" />
+        <Parameter Name="request" Type="MonoTouch.FacebookConnect.FBRequest" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

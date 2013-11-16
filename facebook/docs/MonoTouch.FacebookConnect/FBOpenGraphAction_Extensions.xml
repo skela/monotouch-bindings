@@ -1,0 +1,633 @@
+<Type Name="FBOpenGraphAction_Extensions" FullName="MonoTouch.FacebookConnect.FBOpenGraphAction_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBOpenGraphAction_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBOpenGraphAction_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetApplication">
+      <MemberSignature Language="C#" Value="public static MonoTouch.FacebookConnect.IFBGraphObjectProtocol GetApplication (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.FacebookConnect.IFBGraphObjectProtocol GetApplication(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.FacebookConnect.IFBGraphObjectProtocol</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComments">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject[] GetComments (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject[] GetComments(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCreatedTime">
+      <MemberSignature Language="C#" Value="public static string GetCreatedTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCreatedTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEndTime">
+      <MemberSignature Language="C#" Value="public static string GetEndTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetEndTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetExpiresTime">
+      <MemberSignature Language="C#" Value="public static string GetExpiresTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetExpiresTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFrom">
+      <MemberSignature Language="C#" Value="public static MonoTouch.FacebookConnect.IFBGraphUser GetFrom (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.FacebookConnect.IFBGraphUser GetFrom(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.FacebookConnect.IFBGraphUser</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetId">
+      <MemberSignature Language="C#" Value="public static string GetId (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetId(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImage">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject GetImage (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject GetImage(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLikes">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject[] GetLikes (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject[] GetLikes(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMessage">
+      <MemberSignature Language="C#" Value="public static string GetMessage (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetMessage(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPlace">
+      <MemberSignature Language="C#" Value="public static MonoTouch.FacebookConnect.IFBGraphPlace GetPlace (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.FacebookConnect.IFBGraphPlace GetPlace(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.FacebookConnect.IFBGraphPlace</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPublishTime">
+      <MemberSignature Language="C#" Value="public static string GetPublishTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetPublishTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRef">
+      <MemberSignature Language="C#" Value="public static string GetRef (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetRef(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStartTime">
+      <MemberSignature Language="C#" Value="public static string GetStartTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetStartTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTags">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject[] GetTags (this MonoTouch.FacebookConnect.IFBOpenGraphAction This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject[] GetTags(class MonoTouch.FacebookConnect.IFBOpenGraphAction This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetApplication">
+      <MemberSignature Language="C#" Value="public static void SetApplication (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.FacebookConnect.IFBGraphObjectProtocol application);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetApplication(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.FacebookConnect.IFBGraphObjectProtocol application) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="application" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="application">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetComments">
+      <MemberSignature Language="C#" Value="public static void SetComments (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.Foundation.NSObject[] comments);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetComments(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.Foundation.NSObject[] comments) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="comments" Type="MonoTouch.Foundation.NSObject[]" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="comments">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCreatedTime">
+      <MemberSignature Language="C#" Value="public static void SetCreatedTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string createdTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCreatedTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string createdTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="createdTime" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="createdTime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEndTime">
+      <MemberSignature Language="C#" Value="public static void SetEndTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string endTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEndTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string endTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="endTime" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="endTime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExpiresTime">
+      <MemberSignature Language="C#" Value="public static void SetExpiresTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string expiresTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetExpiresTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string expiresTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="expiresTime" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="expiresTime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFrom">
+      <MemberSignature Language="C#" Value="public static void SetFrom (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.FacebookConnect.IFBGraphUser fromUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFrom(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.FacebookConnect.IFBGraphUser fromUser) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="fromUser" Type="MonoTouch.FacebookConnect.IFBGraphUser" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="fromUser">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetId">
+      <MemberSignature Language="C#" Value="public static void SetId (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetId(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string id) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetImage">
+      <MemberSignature Language="C#" Value="public static void SetImage (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.Foundation.NSObject image);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetImage(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.Foundation.NSObject image) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="image" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="image">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLikes">
+      <MemberSignature Language="C#" Value="public static void SetLikes (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.Foundation.NSObject[] likes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLikes(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.Foundation.NSObject[] likes) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="likes" Type="MonoTouch.Foundation.NSObject[]" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="likes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMessage">
+      <MemberSignature Language="C#" Value="public static void SetMessage (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetMessage(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string message) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPlace">
+      <MemberSignature Language="C#" Value="public static void SetPlace (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.FacebookConnect.IFBGraphPlace place);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPlace(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.FacebookConnect.IFBGraphPlace place) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="place" Type="MonoTouch.FacebookConnect.IFBGraphPlace" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="place">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPublishTime">
+      <MemberSignature Language="C#" Value="public static void SetPublishTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string publishTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPublishTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string publishTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="publishTime" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="publishTime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRef">
+      <MemberSignature Language="C#" Value="public static void SetRef (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string aRef);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetRef(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string aRef) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="aRef" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="aRef">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStartTime">
+      <MemberSignature Language="C#" Value="public static void SetStartTime (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, string startTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStartTime(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, string startTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="startTime" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="startTime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTags">
+      <MemberSignature Language="C#" Value="public static void SetTags (this MonoTouch.FacebookConnect.IFBOpenGraphAction This, MonoTouch.Foundation.NSObject[] tags);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTags(class MonoTouch.FacebookConnect.IFBOpenGraphAction This, class MonoTouch.Foundation.NSObject[] tags) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBOpenGraphAction" RefType="this" />
+        <Parameter Name="tags" Type="MonoTouch.Foundation.NSObject[]" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="tags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,29 @@
+<Type Name="IFBGraphUser" FullName="MonoTouch.FacebookConnect.IFBGraphUser">
+  <TypeSignature Language="C#" Value="public interface IFBGraphUser : IDisposable, MonoTouch.FacebookConnect.IFBGraphObjectProtocol, MonoTouch.ObjCRuntime.INativeObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFBGraphUser implements class MonoTouch.FacebookConnect.IFBGraphObjectProtocol, class MonoTouch.ObjCRuntime.INativeObject, class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>MonoTouch.FacebookConnect.IFBGraphObjectProtocol</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>MonoTouch.ObjCRuntime.INativeObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>MonoTouch.Foundation.Protocol(Name="FBGraphUser", WrapperType=typeof(MonoTouch.FacebookConnect.FBGraphUserWrapper))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

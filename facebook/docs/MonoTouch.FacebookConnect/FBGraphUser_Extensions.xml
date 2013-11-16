@@ -1,0 +1,387 @@
+<Type Name="FBGraphUser_Extensions" FullName="MonoTouch.FacebookConnect.FBGraphUser_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBGraphUser_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBGraphUser_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetBirthday">
+      <MemberSignature Language="C#" Value="public static string GetBirthday (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetBirthday(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirstName">
+      <MemberSignature Language="C#" Value="public static string GetFirstName (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetFirstName(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetId">
+      <MemberSignature Language="C#" Value="public static string GetId (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetId(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLastName">
+      <MemberSignature Language="C#" Value="public static string GetLastName (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLastName(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLink">
+      <MemberSignature Language="C#" Value="public static string GetLink (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLink(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocation">
+      <MemberSignature Language="C#" Value="public static MonoTouch.FacebookConnect.IFBGraphPlace GetLocation (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.FacebookConnect.IFBGraphPlace GetLocation(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.FacebookConnect.IFBGraphPlace</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMiddleName">
+      <MemberSignature Language="C#" Value="public static string GetMiddleName (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetMiddleName(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetName">
+      <MemberSignature Language="C#" Value="public static string GetName (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetName(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUsername">
+      <MemberSignature Language="C#" Value="public static string GetUsername (this MonoTouch.FacebookConnect.IFBGraphUser This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetUsername(class MonoTouch.FacebookConnect.IFBGraphUser This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBirthday">
+      <MemberSignature Language="C#" Value="public static void SetBirthday (this MonoTouch.FacebookConnect.IFBGraphUser This, string birthday);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBirthday(class MonoTouch.FacebookConnect.IFBGraphUser This, string birthday) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="birthday" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="birthday">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFirstName">
+      <MemberSignature Language="C#" Value="public static void SetFirstName (this MonoTouch.FacebookConnect.IFBGraphUser This, string firstName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFirstName(class MonoTouch.FacebookConnect.IFBGraphUser This, string firstName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="firstName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="firstName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetId">
+      <MemberSignature Language="C#" Value="public static void SetId (this MonoTouch.FacebookConnect.IFBGraphUser This, string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetId(class MonoTouch.FacebookConnect.IFBGraphUser This, string id) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLastName">
+      <MemberSignature Language="C#" Value="public static void SetLastName (this MonoTouch.FacebookConnect.IFBGraphUser This, string middleName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLastName(class MonoTouch.FacebookConnect.IFBGraphUser This, string middleName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="middleName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="middleName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLink">
+      <MemberSignature Language="C#" Value="public static void SetLink (this MonoTouch.FacebookConnect.IFBGraphUser This, string link);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLink(class MonoTouch.FacebookConnect.IFBGraphUser This, string link) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="link" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="link">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLocation">
+      <MemberSignature Language="C#" Value="public static void SetLocation (this MonoTouch.FacebookConnect.IFBGraphUser This, MonoTouch.FacebookConnect.IFBGraphPlace location);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLocation(class MonoTouch.FacebookConnect.IFBGraphUser This, class MonoTouch.FacebookConnect.IFBGraphPlace location) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="location" Type="MonoTouch.FacebookConnect.IFBGraphPlace" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="location">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMiddleName">
+      <MemberSignature Language="C#" Value="public static void SetMiddleName (this MonoTouch.FacebookConnect.IFBGraphUser This, string middleName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetMiddleName(class MonoTouch.FacebookConnect.IFBGraphUser This, string middleName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="middleName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="middleName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetName">
+      <MemberSignature Language="C#" Value="public static void SetName (this MonoTouch.FacebookConnect.IFBGraphUser This, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetName(class MonoTouch.FacebookConnect.IFBGraphUser This, string name) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetUsername">
+      <MemberSignature Language="C#" Value="public static void SetUsername (this MonoTouch.FacebookConnect.IFBGraphUser This, string username);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUsername(class MonoTouch.FacebookConnect.IFBGraphUser This, string username) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphUser" RefType="this" />
+        <Parameter Name="username" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="username">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,60 @@
+<Type Name="FBViewControllerDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBViewControllerDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBViewControllerDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBViewControllerDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CancelWasPressed">
+      <MemberSignature Language="C#" Value="public static void CancelWasPressed (this MonoTouch.FacebookConnect.IFBViewControllerDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CancelWasPressed(class MonoTouch.FacebookConnect.IFBViewControllerDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBViewControllerDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoneWasPressed">
+      <MemberSignature Language="C#" Value="public static void DoneWasPressed (this MonoTouch.FacebookConnect.IFBViewControllerDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DoneWasPressed(class MonoTouch.FacebookConnect.IFBViewControllerDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBViewControllerDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

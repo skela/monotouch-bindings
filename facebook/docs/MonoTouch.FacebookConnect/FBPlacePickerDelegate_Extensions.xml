@@ -1,0 +1,107 @@
+<Type Name="FBPlacePickerDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBPlacePickerDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBPlacePickerDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBPlacePickerDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DataDidChange">
+      <MemberSignature Language="C#" Value="public static void DataDidChange (this MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DataDidChange(class MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, class MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBPlacePickerDelegate" RefType="this" />
+        <Parameter Name="placePicker" Type="MonoTouch.FacebookConnect.FBPlacePickerViewController" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="placePicker">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandleError">
+      <MemberSignature Language="C#" Value="public static void HandleError (this MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker, MonoTouch.Foundation.NSError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HandleError(class MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, class MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker, class MonoTouch.Foundation.NSError error) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBPlacePickerDelegate" RefType="this" />
+        <Parameter Name="placePicker" Type="MonoTouch.FacebookConnect.FBPlacePickerViewController" />
+        <Parameter Name="error" Type="MonoTouch.Foundation.NSError" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="placePicker">To be added.</param>
+        <param name="error">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionDidChange">
+      <MemberSignature Language="C#" Value="public static void SelectionDidChange (this MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SelectionDidChange(class MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, class MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBPlacePickerDelegate" RefType="this" />
+        <Parameter Name="placePicker" Type="MonoTouch.FacebookConnect.FBPlacePickerViewController" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="placePicker">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldIncludeUser">
+      <MemberSignature Language="C#" Value="public static bool ShouldIncludeUser (this MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker, MonoTouch.FacebookConnect.IFBGraphPlace place);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ShouldIncludeUser(class MonoTouch.FacebookConnect.IFBPlacePickerDelegate This, class MonoTouch.FacebookConnect.FBPlacePickerViewController placePicker, class MonoTouch.FacebookConnect.IFBGraphPlace place) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBPlacePickerDelegate" RefType="this" />
+        <Parameter Name="placePicker" Type="MonoTouch.FacebookConnect.FBPlacePickerViewController" />
+        <Parameter Name="place" Type="MonoTouch.FacebookConnect.IFBGraphPlace" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="placePicker">To be added.</param>
+        <param name="place">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

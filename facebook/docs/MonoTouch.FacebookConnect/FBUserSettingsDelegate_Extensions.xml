@@ -1,0 +1,125 @@
+<Type Name="FBUserSettingsDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBUserSettingsDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBUserSettingsDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBUserSettingsDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DidLogUserIn">
+      <MemberSignature Language="C#" Value="public static void DidLogUserIn (this MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidLogUserIn(class MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBUserSettingsDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DidLogUserOut">
+      <MemberSignature Language="C#" Value="public static void DidLogUserOut (this MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidLogUserOut(class MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBUserSettingsDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedError">
+      <MemberSignature Language="C#" Value="public static void ReceivedError (this MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, MonoTouch.Foundation.NSObject sender, MonoTouch.Foundation.NSError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReceivedError(class MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, class MonoTouch.Foundation.NSObject sender, class MonoTouch.Foundation.NSError error) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBUserSettingsDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+        <Parameter Name="error" Type="MonoTouch.Foundation.NSError" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <param name="error">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WillAttemptToLogUserIn">
+      <MemberSignature Language="C#" Value="public static void WillAttemptToLogUserIn (this MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WillAttemptToLogUserIn(class MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBUserSettingsDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WillLogUserOut">
+      <MemberSignature Language="C#" Value="public static void WillLogUserOut (this MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, MonoTouch.Foundation.NSObject sender);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WillLogUserOut(class MonoTouch.FacebookConnect.IFBUserSettingsDelegate This, class MonoTouch.Foundation.NSObject sender) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBUserSettingsDelegate" RefType="this" />
+        <Parameter Name="sender" Type="MonoTouch.Foundation.NSObject" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="sender">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

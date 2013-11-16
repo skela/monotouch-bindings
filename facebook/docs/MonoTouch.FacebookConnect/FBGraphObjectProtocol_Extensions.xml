@@ -1,0 +1,125 @@
+<Type Name="FBGraphObjectProtocol_Extensions" FullName="MonoTouch.FacebookConnect.FBGraphObjectProtocol_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBGraphObjectProtocol_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBGraphObjectProtocol_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCount">
+      <MemberSignature Language="C#" Value="public static uint GetCount (this MonoTouch.FacebookConnect.IFBGraphObjectProtocol This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int32 GetCount(class MonoTouch.FacebookConnect.IFBGraphObjectProtocol This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyEnumerator">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSEnumerator GetKeyEnumerator (this MonoTouch.FacebookConnect.IFBGraphObjectProtocol This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSEnumerator GetKeyEnumerator(class MonoTouch.FacebookConnect.IFBGraphObjectProtocol This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectForKey">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject ObjectForKey (this MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, string aKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject ObjectForKey(class MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, string aKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" RefType="this" />
+        <Parameter Name="aKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="aKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveObjectForKey">
+      <MemberSignature Language="C#" Value="public static MonoTouch.Foundation.NSObject RemoveObjectForKey (this MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, string aKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class MonoTouch.Foundation.NSObject RemoveObjectForKey(class MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, string aKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MonoTouch.Foundation.NSObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" RefType="this" />
+        <Parameter Name="aKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="aKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetObject">
+      <MemberSignature Language="C#" Value="public static void SetObject (this MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, MonoTouch.Foundation.NSObject anObject, string aKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetObject(class MonoTouch.FacebookConnect.IFBGraphObjectProtocol This, class MonoTouch.Foundation.NSObject anObject, string aKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBGraphObjectProtocol" RefType="this" />
+        <Parameter Name="anObject" Type="MonoTouch.Foundation.NSObject" />
+        <Parameter Name="aKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="anObject">To be added.</param>
+        <param name="aKey">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

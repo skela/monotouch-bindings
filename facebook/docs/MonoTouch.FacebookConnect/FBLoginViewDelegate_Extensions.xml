@@ -1,0 +1,106 @@
+<Type Name="FBLoginViewDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBLoginViewDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBLoginViewDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBLoginViewDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FetchedUserInfo">
+      <MemberSignature Language="C#" Value="public static void FetchedUserInfo (this MonoTouch.FacebookConnect.IFBLoginViewDelegate This, MonoTouch.FacebookConnect.FBLoginView loginView, MonoTouch.FacebookConnect.IFBGraphUser user);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FetchedUserInfo(class MonoTouch.FacebookConnect.IFBLoginViewDelegate This, class MonoTouch.FacebookConnect.FBLoginView loginView, class MonoTouch.FacebookConnect.IFBGraphUser user) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBLoginViewDelegate" RefType="this" />
+        <Parameter Name="loginView" Type="MonoTouch.FacebookConnect.FBLoginView" />
+        <Parameter Name="user" Type="MonoTouch.FacebookConnect.IFBGraphUser" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="loginView">To be added.</param>
+        <param name="user">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandleError">
+      <MemberSignature Language="C#" Value="public static void HandleError (this MonoTouch.FacebookConnect.IFBLoginViewDelegate This, MonoTouch.FacebookConnect.FBLoginView loginView, MonoTouch.Foundation.NSError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HandleError(class MonoTouch.FacebookConnect.IFBLoginViewDelegate This, class MonoTouch.FacebookConnect.FBLoginView loginView, class MonoTouch.Foundation.NSError error) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBLoginViewDelegate" RefType="this" />
+        <Parameter Name="loginView" Type="MonoTouch.FacebookConnect.FBLoginView" />
+        <Parameter Name="error" Type="MonoTouch.Foundation.NSError" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="loginView">To be added.</param>
+        <param name="error">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowingLoggedInUser">
+      <MemberSignature Language="C#" Value="public static void ShowingLoggedInUser (this MonoTouch.FacebookConnect.IFBLoginViewDelegate This, MonoTouch.FacebookConnect.FBLoginView loginView);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowingLoggedInUser(class MonoTouch.FacebookConnect.IFBLoginViewDelegate This, class MonoTouch.FacebookConnect.FBLoginView loginView) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBLoginViewDelegate" RefType="this" />
+        <Parameter Name="loginView" Type="MonoTouch.FacebookConnect.FBLoginView" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="loginView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowingLoggedOutUser">
+      <MemberSignature Language="C#" Value="public static void ShowingLoggedOutUser (this MonoTouch.FacebookConnect.IFBLoginViewDelegate This, MonoTouch.FacebookConnect.FBLoginView loginView);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowingLoggedOutUser(class MonoTouch.FacebookConnect.IFBLoginViewDelegate This, class MonoTouch.FacebookConnect.FBLoginView loginView) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBLoginViewDelegate" RefType="this" />
+        <Parameter Name="loginView" Type="MonoTouch.FacebookConnect.FBLoginView" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="loginView">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

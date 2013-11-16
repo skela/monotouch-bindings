@@ -1,0 +1,119 @@
+<Type Name="FBSessionDelegate_Extensions" FullName="MonoTouch.FacebookConnect.FBSessionDelegate_Extensions">
+  <TypeSignature Language="C#" Value="public static class FBSessionDelegate_Extensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FBSessionDelegate_Extensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DidExtendToken">
+      <MemberSignature Language="C#" Value="public static void DidExtendToken (this MonoTouch.FacebookConnect.IFBSessionDelegate This, string accessToken, MonoTouch.Foundation.NSDate expiresAt);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidExtendToken(class MonoTouch.FacebookConnect.IFBSessionDelegate This, string accessToken, class MonoTouch.Foundation.NSDate expiresAt) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBSessionDelegate" RefType="this" />
+        <Parameter Name="accessToken" Type="System.String" />
+        <Parameter Name="expiresAt" Type="MonoTouch.Foundation.NSDate" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="accessToken">To be added.</param>
+        <param name="expiresAt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DidLogin">
+      <MemberSignature Language="C#" Value="public static void DidLogin (this MonoTouch.FacebookConnect.IFBSessionDelegate This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidLogin(class MonoTouch.FacebookConnect.IFBSessionDelegate This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBSessionDelegate" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DidLogout">
+      <MemberSignature Language="C#" Value="public static void DidLogout (this MonoTouch.FacebookConnect.IFBSessionDelegate This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidLogout(class MonoTouch.FacebookConnect.IFBSessionDelegate This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBSessionDelegate" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DidNotLogin">
+      <MemberSignature Language="C#" Value="public static void DidNotLogin (this MonoTouch.FacebookConnect.IFBSessionDelegate This, bool cancelled);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DidNotLogin(class MonoTouch.FacebookConnect.IFBSessionDelegate This, bool cancelled) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBSessionDelegate" RefType="this" />
+        <Parameter Name="cancelled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <param name="cancelled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionInvalidated">
+      <MemberSignature Language="C#" Value="public static void SessionInvalidated (this MonoTouch.FacebookConnect.IFBSessionDelegate This);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SessionInvalidated(class MonoTouch.FacebookConnect.IFBSessionDelegate This) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="This" Type="MonoTouch.FacebookConnect.IFBSessionDelegate" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="This">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

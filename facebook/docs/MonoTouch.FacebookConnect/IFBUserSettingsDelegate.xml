@@ -1,0 +1,29 @@
+<Type Name="IFBUserSettingsDelegate" FullName="MonoTouch.FacebookConnect.IFBUserSettingsDelegate">
+  <TypeSignature Language="C#" Value="public interface IFBUserSettingsDelegate : IDisposable, MonoTouch.FacebookConnect.IFBViewControllerDelegate, MonoTouch.ObjCRuntime.INativeObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFBUserSettingsDelegate implements class MonoTouch.FacebookConnect.IFBViewControllerDelegate, class MonoTouch.ObjCRuntime.INativeObject, class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>MonoTouch.FacebookConnect</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>MonoTouch.FacebookConnect.IFBViewControllerDelegate</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>MonoTouch.ObjCRuntime.INativeObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>MonoTouch.Foundation.Protocol(Name="FBUserSettingsDelegate", WrapperType=typeof(MonoTouch.FacebookConnect.FBUserSettingsDelegateWrapper))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
