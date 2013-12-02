@@ -626,7 +626,7 @@ namespace MonoTouch.FacebookConnect
 
 	interface IFBGraphObjectProtocol { }
 
-	[BaseType (typeof (NSObject), Name = "FBGraphObject")]
+	[BaseType (typeof (NSObject))]
 	[Protocol]
 	interface FBGraphObjectProtocol
 	{
