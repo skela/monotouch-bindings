@@ -1,5 +1,5 @@
 BTOUCH=/Developer/MonoTouch/usr/bin/btouch
-VERSION=2.0.2
+VERSION=2.2.1
 all: TestFlight.dll
 
 TestFlightSDK$(VERSION).zip:
