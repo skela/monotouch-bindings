@@ -35,12 +35,12 @@ DropboxChooser\
 DropBoxSync\
 Estimote\
 facebook\
-flite\
 FlurryAnalytics\
 FlurryAppCircle\
 GCDiscreetNotification\
 GoogleAdMobAds\
 GoogleAnalytics\
+GoogleCast\
 GoogleMaps\
 GooglePlusAndPlayGameServices\
 iCarousel\
@@ -72,9 +72,11 @@ ShareKit\
 SMCalloutView\
 SparkInspector\
 TapJoyConnect\
+Taplytics\
 TestFlight\
 TimesSquare\
 TSMiniWebBrowser\
 UrbanAirShip\
+VENCalculatorInputView\
 WEPopover\
 ZipArchive

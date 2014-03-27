@@ -8,15 +8,20 @@ MONOXBUILD=/Library/Frameworks/Mono.framework/Commands/xbuild
 
 # 	If you updated the binding to a newer Facebook version don't forget to change
 #	the Git TAG of newer the version you are binding against
-FBVERSIONTAG=sdk-version-3.11.1
+FBVERSIONTAG=sdk-version-3.13.0
 
 all: MonoTouch.FacebookConnect.dll
 
 facebook-ios-sdk:
 	git clone git@github.com:facebook/facebook-ios-sdk.git && cd facebook-ios-sdk && git checkout tags/$(FBVERSIONTAG)
-
+	sed -i '' 's/GCC_PREFIX_HEADER = facebook_ios_sdk_Prefix.pch;/GCC_PREFIX_HEADER = facebook_ios_sdk_Prefix.pch;GCC_TREAT_WARNINGS_AS_ERRORS = NO;/g' facebook-ios-sdk/src/facebook-ios-sdk.xcodeproj/project.pbxproj
+	
 libFacebook-i386.a: facebook-ios-sdk
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphonesimulator -configuration Release clean build
+	-mv $(PROJECT_ROOT)/build/Release-iphonesimulator/libfacebook_ios_sdk.a $@
+
+libFacebook-x86_64.a: facebook-ios-sdk
+	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphonesimulator -arch x86_64 -configuration Release clean build
 	-mv $(PROJECT_ROOT)/build/Release-iphonesimulator/libfacebook_ios_sdk.a $@
 
 libFacebook-armv7.a: facebook-ios-sdk
@@ -27,19 +32,19 @@ libFacebook-armv7s.a: facebook-ios-sdk
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch armv7s -configuration Release clean build
 	-mv $(PROJECT_ROOT)/build/Release-iphoneos/libfacebook_ios_sdk.a $@
 
-libFacebookSDK.a: libFacebook-i386.a libFacebook-armv7.a libFacebook-armv7s.a
+libFacebook-arm64.a: facebook-ios-sdk
+	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch arm64 -configuration Release clean build
+	-mv $(PROJECT_ROOT)/build/Release-iphoneos/libfacebook_ios_sdk.a $@
+
+libFacebookSDK.a: libFacebook-i386.a libFacebook-x86_64.a libFacebook-armv7.a libFacebook-armv7s.a libFacebook-arm64.a
 	lipo -create -output $@ $^
 
-libarclite.a:
-	curl -L https://github.com/dalexsoto/MonoTouch-PSPDFKit-bindings/raw/master/AlexTouch.PSPDFKit/libarclite.a > libarclite.a
-	curl -L https://github.com/dalexsoto/MonoTouch-PSPDFKit-bindings/raw/master/AlexTouch.PSPDFKit/libarclite.linkwith.cs > libarclite.linkwith.cs
-
-MonoTouch.FacebookConnect.dll: libFacebookSDK.a libarclite.a
+MonoTouch.FacebookConnect.dll: libFacebookSDK.a
 	-mkdir -p ios
 	$(MONOXBUILD) /p:Configuration=Release MonoTouch.FacebookConnect.csproj
 	cp bin/Release/MonoTouch.FacebookConnect.dll MonoTouch.FacebookConnect.dll
 
-prepare: libFacebookSDK.a libarclite.a
+prepare: libFacebookSDK.a
 
 merge-docs: facebook-ios-sdk
 	../../RunDoxy -g facebook-ios-sdk/src Doxyfile `pwd`/../docs
